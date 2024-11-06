@@ -52,10 +52,54 @@
             </li>
           </ul>
         </address>
+        <button class="burger-btn" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-menu is-open">
+        <div class="container mobile-menu-container">
+          <button type="button" class="mobile-menu-close">
+            <svg width="8" height="8" class="modal-btn-close-icon">
+              <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+          </button>
+          <nav class="mobile-menu-nav">
+            <ul class="list-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="">Studio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="contacts">
+            <ul class="contacts-list">
+              <li class="contacts-item">
+                <a class="contacts-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="contacts-item">
+                <a class="contacts-link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul>
+            <li></li>
+          </ul>
+        </div>
       </div>
     </header>
 
-    <main>
+    <!-- <main>
       <section class="title-page section">
         <div class="container">
           <h1 class="title-main">Effective Solutions for Your Business</h1>
@@ -419,8 +463,8 @@
           </ul>
         </div>
       </section>
-    </main>
-    <footer class="page-footer">
+    </main> -->
+    <!-- <footer class="page-footer">
       <div class="container footer-container">
         <div class="logo-container">
           <a class="logo logo-footer" href="./index.html"
@@ -485,7 +529,7 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
     <div class="backdrop">
       <div class="modal">
@@ -560,12 +604,15 @@
               value="true"
             />
             <label class="modal-check-text" for="user-privacy"
-              ><span class="chek-text">
+              ><span class="check-text">
                 <svg class="modal-check-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-Vector"></use>
-                </svg> </span
-              >I accept the terms and conditions of the
-              <a href="" class="link-policy">Privacy Policy</a>
+                </svg>
+              </span>
+              <span
+                >I accept the terms and conditions of the
+                <a href="" class="link-policy">Privacy Policy</a>
+              </span>
             </label>
           </div>
           <button type="submit" class="btn-modal">Send</button>
