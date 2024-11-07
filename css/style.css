@@ -645,7 +645,7 @@ h6 {
 }
 
 .img-container {
-  /* width: 264px;
+  width: 264px;
   height: 112px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
@@ -653,7 +653,7 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 8px; */
+  margin-bottom: 8px;
   display: none;
 }
 /* --------------------TEAM-PAGE---------------------*/
@@ -955,13 +955,13 @@ h6 {
   .advantages-list {
     display: flex;
     gap: 24px;
-    width: calc((100%-72) / 4);
+    width: calc((100%-72) / 2);
   }
 
   .item-descr {
     width: calc((100% - 72px) / 2);
   }
-
+  
   .team-title {
     gap: 24px;
   }
@@ -1003,6 +1003,8 @@ h6 {
     justify-content: center;
     align-items: center;
     margin-bottom: 8px;
+    display: none;
+  }
   }
 
   .item-descr {
@@ -1016,7 +1018,7 @@ h6 {
     font-size: 20px;
   }
   .advantages-list {
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
   }
   .team-page {
     width: 1158рх;
