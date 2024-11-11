@@ -601,7 +601,7 @@ h6 {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office1-min.jpg);
+    url(../images/Dark-bg-mob.jpg);
   background-repeat: no-repeat;
   background-position: center;
   margin: 0 auto;
@@ -1044,7 +1044,13 @@ h6 {
   .team-title {
     gap: 24px;
   }
-
+  .title-page {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg-tab.jpg);
+  }
   .portfolio-list {
     width: calc((100% - 48px) / 2);
   }
@@ -1100,6 +1106,18 @@ h6 {
   .email-form {
     flex-wrap: nowrap;
   }
+
+  @media screen and (min-resolution: 2dppx),
+    (min-resolution: 192dpi),
+    (-webkit-min-device-pixel-ratio: 2) {
+    .title-page {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/Dark-bg-tab2.jpg);
+    }
+  }
 }
 
 @media screen and (min-width: 1158px) {
@@ -1116,6 +1134,17 @@ h6 {
     /* display: none; */
   }
 
+  @media screen and (min-resolution: 2dppx),
+    (min-resolution: 192dpi),
+    (-webkit-min-device-pixel-ratio: 2) {
+    .title-page {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office2.jpg);
+    }
+  }
   .item-descr {
     width: calc((100% - 72px) / 4);
   }
@@ -1167,6 +1196,7 @@ h6 {
 
   .logo-container {
     text-align: left;
+    padding-left: 0;
   }
   .footer-container {
     display: flex;
@@ -1176,7 +1206,6 @@ h6 {
 
   .soc-icons-footer-cont {
     justify-content: left;
-    margin-left: 120px;
   }
   .email-form {
     flex-wrap: nowrap;
@@ -1185,5 +1214,24 @@ h6 {
     display: flex;
     gap: 16px;
     flex-wrap: nowrap;
+  }
+
+  .title-page {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office1-min.jpg);
+  }
+}
+@media screen and (min-resolution: 2dppx),
+  (min-resolution: 192dpi),
+  (-webkit-min-device-pixel-ratio: 2) {
+  .title-page {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg-mob2.jpg);
   }
 }
