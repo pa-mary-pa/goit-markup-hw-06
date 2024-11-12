@@ -594,22 +594,24 @@ h6 {
   }
 }
 /* ----------------TITLE-PAGE--------------------*/
-.title-page {
-  padding: 72px 52px;
-  background-color: #2e2f42;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/Dark-bg-mob.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: 0 auto;
-  max-width: 1440px;
-  block-size: cover;
-  background-size: cover;
-  /* padding-bottom: 72px;
+@media screen and (max-width: 767px) {
+  .title-page {
+    padding: 72px 52px;
+    background-color: #2e2f42;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg-mob.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    max-width: 1440px;
+    block-size: cover;
+    background-size: cover;
+    /* padding-bottom: 72px;
   padding-top: 72px; */
+  }
 }
 .title-main {
   font-weight: 700;
@@ -1056,7 +1058,7 @@ h6 {
   }
 
   .footer-form {
-    /* margin-top: 72px; */
+    margin-top: 72px;
     justify-content: center;
   }
 
